@@ -1,0 +1,11 @@
+.promotion_banner_main{
+  background-color: #C20316;
+  color: rgba(250, 250, 250, 1);
+  padding: 8px;
+  text-align: center;
+  font-family: var(--font-montserrat);
+  /* font-family: "Montserrat"; */
+  /* font-family: var(--font-inria_sans); */
+  font-weight: 700;
+  font-size: .875rem;
+}

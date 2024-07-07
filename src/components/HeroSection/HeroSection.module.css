@@ -1,0 +1,72 @@
+.hero{
+  /* font-family: var(--font-montserrat); */
+  /* height: 31.25rem; */
+  height: 39vw;
+  /* border: 2px solid red; */
+
+}
+
+.swiper_image_and_text{
+  /* width: 100%; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* border: 2px solid greenyellow; */
+
+}
+
+.swiper_texts_wrapper{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+}
+
+
+.swiper_texts{
+  /* border: 2px solid red; */
+  width: 80%;
+  text-align: center;
+
+}
+
+
+.swiper_main_text{
+
+  color: #FAFAFA;
+  font-family: var(--font-montserrat);
+  font-size: 3.5vw;
+  font-weight: 700;
+  line-height: 120%;
+
+
+}
+
+.swiper_sub_text{
+   color: #FAFAFA;
+  font-family: var(--font-montserrat);
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.swiper_shop_now{
+  /* border: 2px solid blue; */
+  display: inline-block;
+  padding: 1vw 1.2vw;
+  font-size: 1.3vw;
+  font-weight: 700;
+  font-family: var(--font-montserrat);
+  line-height: 120%;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  margin-top: 1.2vw;
+  width: auto;
+
+
+
+}

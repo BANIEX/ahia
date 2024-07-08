@@ -1,0 +1,9 @@
+.copyright_section_container{
+  width: 100%;
+}
+
+
+.copyright_section_sub_container{
+  display: flex;
+  font-size: 0.8rem;
+}

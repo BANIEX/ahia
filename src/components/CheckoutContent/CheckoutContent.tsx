@@ -80,7 +80,7 @@ const CheckoutContent = () => {
                   className={styles.cart_content_middle_product_content_image}
                 >
                   <Image
-                    src="/hero_images/cart_image_one.png"
+                    src="/bag_images/bag_one.png"
                     alt="cart image"
                     width={100}
                     height={100}
@@ -131,7 +131,7 @@ const CheckoutContent = () => {
                   className={styles.cart_content_middle_product_content_image}
                 >
                   <Image
-                    src="/hero_images/cart_image_one.png"
+                    src="/bag_images/bag_two.png"
                     alt="cart image"
                     width={100}
                     height={100}

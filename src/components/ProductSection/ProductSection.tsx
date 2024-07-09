@@ -1,21 +1,13 @@
 "use client"
 import React from 'react'
 import styles from './ProductSection.module.css'
-import Image from 'next/image';
-
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCartShopping } from "@fortawesome/free-light-svg-icons";
-
-// import { library } from "@fortawesome/fontawesome-svg-core";
-// import { all } from "@awesome.me/kit-KIT_CODE/icons";
-// 
 
 import { ShoppingCart } from "lucide-react";
 import CartIcon from '@/icons/CartIcon';
 import Product from '../Product/Product';
 import { useState } from 'react';
-// library.add(...all);
+import Link from 'next/link'
+
 
 
 const ProductSection = () => {
@@ -270,7 +262,9 @@ const ProductSection = () => {
       <div className={styles.section_products_wrapper}>
         <div className={styles.section_products_sub_wrapper}>
           {currentProducts.map((productObject) => (
-            <Product key={productObject.id} product={productObject} />
+            <Link href="/cart" key={productObject.id}>
+              <Product key={productObject.id} product={productObject} />
+            </Link>
           ))}
 
           {/* 

@@ -193,6 +193,16 @@
   /* font-family: sans-serif; */
   font-family: var(--font-public_sans);
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.payment_button_wrapper:hover{
+
+  color: black;
+  background-color: #FFF4B6;
+  
 }
 
 
@@ -424,6 +434,7 @@
 
   .shipping_payment_sub_container{
     margin: 0 auto;
+    width: 95%;
   }
 
   .shipping_info_text_wrapper{
@@ -446,7 +457,7 @@
   }
 
   .cart_content_middle_total_content{
-    width: fit-content;
+    width: max-content;
 
   }
 

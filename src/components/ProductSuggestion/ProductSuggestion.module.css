@@ -35,6 +35,19 @@
   font-weight: 700;
   color: #FAFAFA;
   background-color: #2A3517;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  
+
+}
+
+
+.product_suggestion_view_all > div:hover{
+  color: black;
+  background-color: #FFF4B6;
+
+
+  
   
 
 }

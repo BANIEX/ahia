@@ -302,9 +302,23 @@
   color: #FFF;
   font-size: 1rem;
   font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
 
 
 }
+
+.cart_content_bottom > div:nth-child(3) > div:hover {
+  
+  
+  background-color: #FFF4B6;
+  color: black;
+  
+
+
+}
+
+
 
 
 @media screen and (max-width: 600px) {

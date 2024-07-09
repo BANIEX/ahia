@@ -1,7 +1,7 @@
 .product_suggestion_wrapper{
   /* margin: 20px 0; */
   margin-top: 60px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 
 }
@@ -18,11 +18,12 @@
 
 
 .product_suggestion_view_all{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-family: var(--font-montserrat);
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 15px 0;
+  margin-top: 50px;
 
 }
 

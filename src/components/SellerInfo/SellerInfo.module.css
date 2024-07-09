@@ -1,14 +1,14 @@
 .seller_info_wrapper{
   width: 100%;
   /* height: 300px; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding:  20px;
 }
 
 .seller_info_sub_wrapper{
   width: 75%;
   margin: 0 auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   /* height: 200px; */
   display: flex;
   
@@ -16,7 +16,7 @@
 }
 
 .seller_info_left{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 50%;
   /* width: 520px; */
   display: flex;
@@ -31,7 +31,7 @@
   /* margin-right: 10px; */
   height: 250px;
 
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -32,10 +32,7 @@ const HeroSection = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          {/* <div>AHIA is your one store shopping site</div>
-            <div>You want it. We have it</div>
-            <div>Shop now</div> */}
+        <SwiperSlide className={styles.specific_swiper_slide}>
           <div className={styles.swiper_texts_wrapper}>
             <div className={styles.swiper_texts}>
               <div className={styles.swiper_main_text}>
@@ -44,7 +41,6 @@ const HeroSection = () => {
               <div className={styles.swiper_sub_text}>
                 You want it? We have it
               </div>
-              <div className={styles.swiper_shop_now}>SHOP NOW</div>
             </div>
           </div>
           <Image
@@ -54,7 +50,7 @@ const HeroSection = () => {
             height={394}
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.specific_swiper_slide}>
           {/* <div>AHIA is your one store shopping site</div>
             <div>You want it. We have it</div>
             <div>Shop now</div> */}
@@ -66,7 +62,7 @@ const HeroSection = () => {
               <div className={styles.swiper_sub_text}>
                 Become an AHIA Vendor
               </div>
-              <div className={styles.swiper_shop_now}>SIGN UP</div>
+              {/* <div className={styles.swiper_shop_now}>SIGN UP</div> */}
             </div>
           </div>
           <Image
@@ -76,19 +72,19 @@ const HeroSection = () => {
             height={394}
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.specific_swiper_slide}>
           {/* <div>AHIA is your one store shopping site</div>
             <div>You want it. We have it</div>
             <div>Shop now</div> */}
           <div className={styles.swiper_texts_wrapper}>
             <div className={styles.swiper_texts}>
               <div className={styles.swiper_main_text}>
-                Discover the Latest Trends in Handbags and Shoes
+                Discover Trendy Handbags and Shoes
               </div>
               <div className={styles.swiper_sub_text}>
                 Shop the newest arrivals now
               </div>
-              <div className={styles.swiper_shop_now}>SHOP NOW</div>
+              {/* <div className={styles.swiper_shop_now}>SHOP NOW</div> */}
             </div>
           </div>
           <Image

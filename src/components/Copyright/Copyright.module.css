@@ -46,3 +46,41 @@
 .copyright_section_right > div{
   padding: 0 15px;
 }
+
+
+@media screen and (max-width : 600px) {
+
+  
+.copyright_section_sub_container{
+
+  font-size: .675rem;
+  
+}
+
+  
+}
+
+
+@media screen and (max-width : 500px) {
+
+  
+.copyright_section_sub_container{
+
+  font-size: .575rem;
+  
+}
+
+  
+}
+
+@media screen and (max-width : 350px) {
+
+  
+.copyright_section_sub_container{
+
+  font-size: .475rem;
+  
+}
+
+  
+}

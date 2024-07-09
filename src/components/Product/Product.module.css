@@ -24,7 +24,7 @@
 }
 
 .section_tab_left div{
-  /* border-bottom: 6px solid #2A3517;   */
+  border-bottom: 6px solid #2A3517;  
   padding: 10px 20px;
   /* border: 2px solid red; */
   display: flex;
@@ -52,8 +52,7 @@
 
 
 .active{
-  border-bottom: 6px solid #2A3517;  
-
+  
 }
 
 

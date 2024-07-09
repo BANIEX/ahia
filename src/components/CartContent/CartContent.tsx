@@ -1,14 +1,87 @@
 import React from 'react'
 import styles from './CartContent.module.css'
 import Image from 'next/image';
+import Link from "next/link";
+
 
 const CartContent = () => {
+
+  const cart_products_array = [
+    {
+      id: 1,
+      name: "Hobo small",
+      price: "95,000",
+      imageUrl: "/bag_images/bag_one.png",
+    },
+    {
+      id: 2,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_two.png",
+    },
+    {
+      id: 3,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_three.png",
+    },
+    {
+      id: 4,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_four.png",
+    },
+    {
+      id: 5,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_five.png",
+    },
+    {
+      id: 6,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_six.png",
+    },
+    {
+      id: 7,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_seven.png",
+    },
+    {
+      id: 8,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_eight.png",
+    },
+    {
+      id: 9,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_nine.png",
+    },
+    {
+      id: 10,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_ten.png",
+    },
+    {
+      id: 11,
+      name: "Second Product",
+      price: "55,000",
+      imageUrl: "/bag_images/bag_eleven.png",
+    },
+  ];
+
+
   return (
     <div className={styles.cart_content}>
       <div className={styles.cart_content_top}>
         <div className={styles.cart_content_top_your_cart}>Your cart</div>
         <div className={styles.cart_content_top_continue_shopping}>
-          Continue shopping
+          <Link href='/'>Continue shopping</Link>
         </div>
       </div>
       <div className={styles.cart_content_middle}>
@@ -217,7 +290,10 @@ const CartContent = () => {
         <div>Subtotal 131,500</div>
         <div>Taxes and shipping calculated at checkout</div>
         <div className={styles.checkout_button}>
-          <div>Checkout</div>
+          <div>
+            {" "}
+            <Link href="/checkout">Checkout</Link>
+          </div>
         </div>
       </div>
     </div>

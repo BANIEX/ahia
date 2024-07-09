@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat, Inria_Sans } from "next/font/google";
+import { Inter, Montserrat, Inria_Sans, Public_Sans } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -16,6 +16,12 @@ const inria_sans = Inria_Sans({
   variable: "--font-inria_sans",
 });
 
+const public_sans = Public_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "600","700"],
+  variable: "--font-public_sans",
+});
+
 export const metadata: Metadata = {
   title: "AHIA",
   description: "Shopping store for all",
@@ -28,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${montserrat.variable} ${inria_sans.variable}`}>
+      <body className={`${inter.variable} ${montserrat.variable} ${public_sans.variable} ${inria_sans.variable}`}>
         {children}
       </body>
     </html>

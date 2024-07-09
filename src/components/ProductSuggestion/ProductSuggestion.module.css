@@ -1,0 +1,39 @@
+.product_suggestion_wrapper{
+  /* margin: 20px 0; */
+  margin-top: 60px;
+  border: 2px solid red;
+
+
+}
+
+
+
+
+.product_suggestion_main_text{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--font-montserrat);
+}
+
+
+
+.product_suggestion_view_all{
+  border: 2px solid red;
+  font-family: var(--font-montserrat);
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+
+}
+
+.product_suggestion_view_all > div{
+  /* border: 2px solid red; */
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FAFAFA;
+  background-color: #2A3517;
+  
+
+}

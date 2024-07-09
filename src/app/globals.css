@@ -31,3 +31,13 @@
   object-fit: cover;
 }
 
+
+
+/* RESPONSIBLE FOR SPACE ON THE SIDES OF THE CART PAGE */
+
+.cart{
+  border: 2px solid red;
+  width: 90%;
+  margin: 20px auto;
+}
+

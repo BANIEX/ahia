@@ -4,7 +4,7 @@ import styles from "./Copyright.module.css"
 const Copyright = () => {
   return (
     <section className={styles.copyright_section_container}>
-      <div className={styles.copyright_section_sub_conatiner}>
+      <div className={styles.copyright_section_sub_container}>
         <div className={styles.copyright_section_left}>
           <div>
             <svg

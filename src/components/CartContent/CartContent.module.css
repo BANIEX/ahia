@@ -288,7 +288,7 @@
   /* background-color: lightgreen; */
   /* border: 2px solid green; */
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   /* width: 300px; */
 }
 

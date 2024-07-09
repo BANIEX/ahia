@@ -179,7 +179,14 @@
 .section_product_below_image_right{
   display: flex;
   align-items: flex-end;
-  padding-right: 5px;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.section_product_below_image_right > svg{
+  
+  /* border: 2px solid rebeccapurple; */
+  width: 100%;
+  height: 50%;
 }
 
 

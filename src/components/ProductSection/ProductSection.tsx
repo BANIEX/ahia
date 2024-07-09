@@ -19,145 +19,214 @@ import { useState } from 'react';
 
 
 const ProductSection = () => {
-  const products_array = [
+  // const bag_products_array = [
+  //   {
+  //     id: 1,
+  //     name: "Hobowww small",
+  //     price: "95,000",
+  //     imageUrl: "/bag_images/bag_one.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Secondww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_two.png",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Secondww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_three.png",
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Secondwww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_four.png",
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "Secondwww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_five.png",
+  //   },
+  //   {
+  //     id: 6,
+  //     name: "Secondwww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_six.png",
+  //   },
+  //   {
+  //     id: 7,
+  //     name: "Secondww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_seven.png",
+  //   },
+  //   {
+  //     id: 8,
+  //     name: "Secondww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_eight.png",
+  //   },
+  //   {
+  //     id: 9,
+  //     name: "Secondwww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_nine.png",
+  //   },
+  //   {
+  //     id: 10,
+  //     name: "Secondww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_ten.png",
+  //   },
+  //   {
+  //     id: 11,
+  //     name: "Secondww Product",
+  //     price: "55,000",
+  //     imageUrl: "/bag_images/bag_eleven.png",
+  //   },
+  // ];
+
+
+  const bag_products_array = [
     {
       id: 1,
-      name: "Hobowww small",
+      name: "Elegant Hobo",
       price: "95,000",
       imageUrl: "/bag_images/bag_one.png",
     },
     {
       id: 2,
-      name: "Secondww Product",
+      name: "Chic Satchel",
       price: "55,000",
       imageUrl: "/bag_images/bag_two.png",
     },
     {
       id: 3,
-      name: "Secondww Product",
+      name: "Classic Tote",
       price: "55,000",
       imageUrl: "/bag_images/bag_three.png",
     },
     {
       id: 4,
-      name: "Secondwww Product",
+      name: "Sophisticated Clutch",
       price: "55,000",
       imageUrl: "/bag_images/bag_four.png",
     },
     {
       id: 5,
-      name: "Secondwww Product",
+      name: "Stylish Backpack",
       price: "55,000",
       imageUrl: "/bag_images/bag_five.png",
     },
     {
       id: 6,
-      name: "Secondwww Product",
+      name: "Modern Messenger",
       price: "55,000",
       imageUrl: "/bag_images/bag_six.png",
     },
     {
       id: 7,
-      name: "Secondww Product",
+      name: "Elegant Envelope",
       price: "55,000",
       imageUrl: "/bag_images/bag_seven.png",
     },
     {
       id: 8,
-      name: "Secondww Product",
+      name: "Trendy Crossbody",
       price: "55,000",
       imageUrl: "/bag_images/bag_eight.png",
     },
     {
       id: 9,
-      name: "Secondwww Product",
+      name: "Luxury Baguette",
       price: "55,000",
       imageUrl: "/bag_images/bag_nine.png",
     },
     {
       id: 10,
-      name: "Secondww Product",
+      name: "Glamorous Bucket",
       price: "55,000",
       imageUrl: "/bag_images/bag_ten.png",
     },
     {
       id: 11,
-      name: "Secondww Product",
+      name: "Fashionable Wristlet",
       price: "55,000",
       imageUrl: "/bag_images/bag_eleven.png",
     },
   ];
 
-
-  const [currentProducts, setCurrentProducts] = useState(products_array);
+  const [currentProducts, setCurrentProducts] = useState(bag_products_array);
   const [activeTab, setActiveTab] = useState("bags");
 
-  const bag_products_array = [
+  const shoe_products_array = [
     {
       id: 1,
-      name: "Hobo small",
+      name: "Stiletto Charm",
       price: "95,000",
-      imageUrl: "/bag_images/bag_one.png",
+      imageUrl: "/shoe_images/shoe_one.png",
     },
     {
       id: 2,
-      name: "Second Product",
+      name: "Elegant Pumps",
       price: "55,000",
-      imageUrl: "/bag_images/bag_two.png",
+      imageUrl: "/shoe_images/shoe_two.png",
     },
     {
       id: 3,
-      name: "Second Product",
+      name: "Classic Kitten Heels",
       price: "55,000",
-      imageUrl: "/bag_images/bag_three.png",
+      imageUrl: "/shoe_images/shoe_three.png",
     },
     {
       id: 4,
-      name: "Second Product",
+      name: "Chic Slingbacks",
       price: "55,000",
-      imageUrl: "/bag_images/bag_four.png",
+      imageUrl: "/shoe_images/shoe_four.png",
     },
     {
       id: 5,
-      name: "Second Product",
+      name: "Graceful D'Orsay",
       price: "55,000",
-      imageUrl: "/bag_images/bag_five.png",
+      imageUrl: "/shoe_images/shoe_five.png",
     },
     {
       id: 6,
-      name: "Second Product",
+      name: "Trendy Wedge Heels",
       price: "55,000",
-      imageUrl: "/bag_images/bag_six.png",
+      imageUrl: "/shoe_images/shoe_six.png",
     },
     {
       id: 7,
-      name: "Second Product",
+      name: "Fashion Ankle Strap",
       price: "55,000",
-      imageUrl: "/bag_images/bag_seven.png",
+      imageUrl: "/shoe_images/shoe_seven.png",
     },
     {
       id: 8,
-      name: "Second Product",
+      name: "Sleek Cone Heels",
       price: "55,000",
-      imageUrl: "/bag_images/bag_eight.png",
+      imageUrl: "/shoe_images/shoe_eight.png",
     },
     {
       id: 9,
-      name: "Second Product",
+      name: "Classy T-Strap",
       price: "55,000",
-      imageUrl: "/bag_images/bag_nine.png",
+      imageUrl: "/shoe_images/shoe_nine.png",
     },
     {
       id: 10,
-      name: "Second Product",
+      name: "Modern Mule Heels",
       price: "55,000",
-      imageUrl: "/bag_images/bag_ten.png",
+      imageUrl: "/shoe_images/shoe_ten.png",
     },
     {
       id: 11,
-      name: "Second Product",
+      name: "Designer Mary Janes",
       price: "55,000",
-      imageUrl: "/bag_images/bag_eleven.png",
+      imageUrl: "/shoe_images/shoe_eleven.png",
     },
   ];
 
@@ -166,7 +235,7 @@ const ProductSection = () => {
        if (category === "bags") {
          setCurrentProducts(bag_products_array);
        } else if (category === "shoes") {
-         setCurrentProducts(products_array);
+         setCurrentProducts(shoe_products_array);
        }
        setActiveTab(category)
      };

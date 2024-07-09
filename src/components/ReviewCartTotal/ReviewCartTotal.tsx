@@ -11,16 +11,16 @@ const ReviewCartTotal = () => {
         <div className={styles.review_cart_total_sub_total_and_shipping}>
           <div className={styles.review_cart_total_sub_total}>
             <span>Subtotal</span>
-            <span>131,500</span>
+            <span>{"\u20A6"}131,500</span>
           </div>
           <div className={styles.review_cart_total_shipping}>
             <span>Shipping</span>
-            <span>4,000</span>
+            <span>{"\u20A6"}4,000</span>
           </div>
         </div>
         <div className={styles.review_cart_total_amount_wrapper}>
           <span>Total</span>
-          <span>200,000</span>
+          <span>{"\u20A6"}200,000</span>
         </div>
       </div>
     </div>

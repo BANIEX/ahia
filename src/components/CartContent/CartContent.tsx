@@ -204,7 +204,7 @@ const CartContent = () => {
               </div>
             </div>
             <div className={styles.cart_content_middle_total_content}>
-              36,500.00
+              {"\u20A6"}36,500
             </div>
           </div>
 
@@ -314,13 +314,13 @@ const CartContent = () => {
               </div>
             </div>
             <div className={styles.cart_content_middle_total_content}>
-              95,000.00
+              {"\u20A6"}95,000
             </div>
           </div>
         </div>
       </div>
       <div className={styles.cart_content_bottom}>
-        <div>Subtotal 131,500</div>
+        <div>Subtotal: {"\u20A6"}131,500</div>
         <div>Taxes and shipping calculated at checkout</div>
         <div className={styles.checkout_button}>
           <div>

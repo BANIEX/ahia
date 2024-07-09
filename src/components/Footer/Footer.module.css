@@ -98,6 +98,7 @@
 .footer_shop_content > div:hover, .footer_company_content > div:hover, .footer_support_content > div:hover{
   /* border: 2px solid red; */
   color: #475927;
+  font-weight: 700;
   
 }
 

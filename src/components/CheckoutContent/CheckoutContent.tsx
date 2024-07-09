@@ -116,7 +116,7 @@ const CheckoutContent = () => {
                     Quanity: 1
                   </div>
                   <div className={styles.review_cart_product_amount}>
-                    36,500
+                    {"\u20A6"}36,500
                   </div>
                 </div>
               </div>
@@ -199,7 +199,7 @@ const CheckoutContent = () => {
                     Quantity: 2
                   </div>
                   <div className={styles.review_cart_product_amount}>
-                    95,000.00
+                    {"\u20A6"}95,000
                   </div>
                 </div>
               </div>
@@ -208,7 +208,7 @@ const CheckoutContent = () => {
               </div>
             </div>
           </div>
-        <ReviewCartTotal />
+          <ReviewCartTotal />
         </div>
       </div>
     </div>

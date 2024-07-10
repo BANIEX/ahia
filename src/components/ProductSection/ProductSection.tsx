@@ -262,8 +262,8 @@ const ProductSection = () => {
       <div className={styles.section_products_wrapper}>
         <div className={styles.section_products_sub_wrapper}>
           {currentProducts.map((productObject) => (
-            <Link href="/cart" key={productObject.id}>
-              <Product key={productObject.id} product={productObject} />
+            <Link href='/cart' key={productObject.id}>
+            <Product key={productObject.id} product={productObject} />
             </Link>
           ))}
 

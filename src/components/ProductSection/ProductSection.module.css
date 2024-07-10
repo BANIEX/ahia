@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   font-size: clamp(1rem, 2vw, 3.5rem);
+  cursor: pointer;
 }
 
 
@@ -39,6 +40,7 @@
   /* border: 2px solid yellow; */
   display: flex;
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .section_tab_right div{

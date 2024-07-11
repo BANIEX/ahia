@@ -258,7 +258,7 @@
 
  .footer_shop_company_support{
   flex-direction: column;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center;
  }
 

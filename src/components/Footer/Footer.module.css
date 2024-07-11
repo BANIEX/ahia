@@ -2,7 +2,7 @@
   width: 100%;
   /* border: 2px solid red; */
   /* height: 300px; */
-  margin: 40px 0;
+  margin: 15px 0;
 }
 
 
@@ -215,6 +215,10 @@
 }
 
 @media screen and (max-width: 850px) {
+
+  .footer_container{
+  margin: 0;
+}
   .footer_shop_company_support{
     width: 95%;
   }
@@ -255,6 +259,9 @@
 
 
 @media screen and (max-width: 300px) {
+
+  
+
 
  .footer_shop_company_support{
   flex-direction: column;
